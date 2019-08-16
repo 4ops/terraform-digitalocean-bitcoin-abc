@@ -179,7 +179,7 @@ variable "provisioner_homedir" {
 variable "bitcoin_image" {
   type = string
 
-  default = "4ops/bitcoin-abc:v0.19.11"
+  default = "4ops/bitcoin-abc:v0.19.12"
 
   description = <<-DESCRIPTION
     Bitcoin ABC docker image tag.
