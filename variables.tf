@@ -169,7 +169,7 @@ variable "provisioner_username" {
 variable "image" {
   type = string
 
-  default = "4ops/bitcoin-abc:v0.20.2"
+  default = "4ops/bitcoin-abc:v0.20.3"
 
   description = <<-DESCRIPTION
     Bitcoin ABC docker image tag.
